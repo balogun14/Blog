@@ -46,7 +46,7 @@ public class AdminController : Controller
         var result = await _admin.Update(model);
         if (result == true)
         {
-            _notyfService.Success("Edited Succesfully");
+            _notyfService.Success("Edited Succesfully!!!!");
         }
         else
         {
